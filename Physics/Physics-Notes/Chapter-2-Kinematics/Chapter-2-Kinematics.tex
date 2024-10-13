@@ -230,7 +230,7 @@ Determine the equation or set of equations that will be most helpful. Use the li
 \subsubsection{Step 5}
 Substitute the knowns \emph{along with their units} into the applicable equation(s), then obtain numerical solutions \emph{with} units. Don't forget the significant figures.
 \subsubsection{Step 6}
-Determine if the answer is reasonable. a shopping cart going >100km/h isn't particularly reasonable. Check both Magnitude \emph{and} sign. ensure it has the proper direction.
+Determine if the answer is reasonable. a shopping cart going $>100km/h$ isn't particularly reasonable. Check both Magnitude \emph{and} sign. ensure it has the proper direction.
 
 \subsubsection{Unreasonable Results}
 The Book has some stuff about how figuring out reasonable vs. unreasonable results improves your skills. I don't particularly care that much.
@@ -256,8 +256,41 @@ Considering straight up and down motion with no air resistance or friction. This
 
 \[v^2 = v_0^2 - 2g(y - y_0)\]
 
-\subsection{Graphical Analysis od One-dimensional Motion}
+\subsection{Graphical Analysis of One-dimensional Motion}
+\subsubsection{Slopes and General Relationships}
+When graphing, typically the horizontal axis(x) is \textbf{independent} and the vertical axis(y) is \textbf{dependent}. If we label horizontal as x and vertical as y, then we get the equation
+\[y=mx+b\].
+$m$ is the \textbf{slope}(the rate of change), easily defined by rise(vertical change) divided by run(horizontal change). This can be represented with $\frac{y - y_0}{x - x_0}$. The letter $b$ is the \textbf{y-intercept}, which is the point where the line crosses the x-axis.
 
+\subsubsection{Graph of Position vs. Time ($a=0$, so $v$ is constant)}
+Time is usually the independent variable(as humans have yet to master the flow of time) that other quantities depend on. So , time is usually on the horizontal axis.
+
+If we had a graph comparing a vehicle's position(x) relative to its time traveled(t), we would see some relationships become established.
+
+First, if slope is rise over run, then we would see rise be distance traveled($\Delta{x}$) and run be time elapsed($\Delta{t}$), illustrated as $\frac{\Delta{x}}{\Delta{t}}$ which is the same equation as $\bar{v}$. We can also create a y-intercept by using the thinking that $x$ is more like $x_t$, so $x_0$ is $x$ at $t=0$, allowing us to substitute $b$ for $x_0$. Now we can return to our $y=mx_b$ equation and substitute.
+\[y=mx+b\]
+
+becomes
+\[x = \bar{v}t + x_0\]
+
+\subsubsection{Graphs of Motion when $a$ is constant but $a \neq 0$}
+
+In the previous section, it was assumed that the vehicle was moving at a constant rate, and lacked any acceleration. more commonly, things accelerate...idk, im kinda just saying words here.
+
+When looking at graphs of position relative to time, in real-world scenarios, the shape of the graph is non linear. This is because as something increases speed, it's acceleration also changes (im just saying fluff at this point).
+
+Big picture: When a vehicle is speeding up, \emph{velocity} changes over time, often resulting in either the steepening of a curve or the fltening of a curve. This shape is a \emph{hyperbola}.
+Typically when looking at hyperbola graphs, you can get three graphs from it: The intial hyperbola, the graph showing the change in velocity(often linear), and the graph showing the rate of change of velocity(could be flat, could be angled up, or down).
+
+Velocity was determined to be $\frac{\Delta{x}}{\Delta{t}}$.
+Acceleration, being the change in velocity based on time, is \[\frac{\Delta{v}}{\Delta{t}}\]
+
+So, subbing in our previous $y=mx+b$, with the knowledge of this new graph having a vertical axis of $v$ and a horizontal of $t$, and our previous graph, we get:
+\[v=v_0 + at\]
+
+\subsubsection{Graphs of motion where acceleration is Not Constant}
+
+Just check the book please. I'm so tired
 
   
 \end{document}
