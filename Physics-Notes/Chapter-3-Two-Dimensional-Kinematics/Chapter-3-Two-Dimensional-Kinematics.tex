@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\begin{document}
+\section{Two-Dimentional Kinematics}
+Many things move along curved paths. These curved paths are observed in two dimensions in kinematics. Blah Blah, I hate myself so much haha
+
+\subsection{Introduction}
+\subsubsection{Two-Dimensional Motion: Walking in a City}
+If you walk from one point to another in a city with uniform square blocks, you can break down your travel by how many block you walked along each axis, with the direction included. Ex: 9 blocks East then 5 north. The straight-line path would be founf with the Pythagorean theorem: $a^2 + b^2 = c^2$, with $c$ as the straight-line distance.
+
+\[c = \sqrt{a^2 + b^2} \]
+
+$\sqrt{(9 blocks)^2 + (5 blocks)^2} = 10.3 blocks$, much shorter than the combined 14 block you would have to travel otherwise.
+
+The straight-line distance being shorter than the total walked distance is one of the general characteristics of vectors
+
+When working with one-dimensional kinematics, only one arrow is used. In two-dimensional Kinematics, we can use up to three: The final straight-line path, the vertical component, and the horizontal component. The Horizontal and vertical components(vectors) add up to make the straigh-line path.
+
+\subsubsection{The Independence of Perpendicular Motions}
+Each Direction is affected only by the motion in that direction.
+Ex.: If 2 balls fall from a table, one dropped off (no horizontal motion) and one rolled off(Horizontal Motion), the horizontal motion will not be affected by the vertical motion. (remember the lab photo).
+
+The two-dimensional  surved path of a thrown object is called \emph{projectile motion}. 
+
+\subsection{Vector Addition and Subtraction: Graphical Methods}
+\subsubsection{Vectors in Two Dimensions}
+Vector - quantity that has a magnitude and direction.
+Displacement, Velocity, acceleration, and force are all vectors.
+When working with one-dimensional vectors, direction can be given with a plus or minus sign.
+In two-dimensional vectors, we specify direction in relation to a reference frame.
+
+\subsubsection{Vector: Head-to-Tail Method}
+The head-to-tail method is a graphical way to add vectors (used in lab[thanks Nicole])*. The tail is the starting point and the head is the final point (textbook figure 3.10).
+
+\begin{enumerate}
+\item Draw an arrow that represents the first vector
+\item Then, draw a second arrow starting representing the second vector, starting from the head of the first.
+\item \emph{if there are more than two vectors, continue adding}, otherwise move to step 4
+\item Draw an arrow from the tail of first vector (or origin) to the head of the last vector. This is the \textbf{resultant} of the other vectors.
+\item Magnitude can be measured with either a ruler, or the Pythagorean theorem.
+\item To get the direction, measure the angle it makes with the reference frame (protractor).  
+\end{enumerate}
+
+The numerical accuracy is determined by the accuracy of the drawing.
+
+\subsubsection{Vector Subtraction}
+Vector subtraction is the same as vector addition, but with (some) vegative vectors. Ex. Subtracting vector $B$ from vector $A$, or $A-B$, would be adding the \emph{negative} of vector $B$ ($A + (-B)$. Graphically, vector $-B$ would have the same magnitude of vector $B$, just with an opposite direction (equal but opposite).
+
+\subsubsection{Multiplication of Vectors and Scalars}
+Multiplying a vector by a positive scalar only changes the \textbf{magnitude} of the vector, not the direction.
+
+Multiplying a vector by a \textbf{negative} scalar changes the direction(making it opposite), and the magnitude (if the scalar $\neq 0$).
+
+\subsubsection{Resolving a Vector into Components}
+Depending on circumstances, components must be determined from a single vector. Components are often expressed as $x-$ and $y-$ or north-south and east-west.
+%Ex.: If we know the displacement and angle, then we can find the components rather simply, using Trigonometry.
+%finding the $\sin$ of the angle can help us find the vertical component, and finding the $\cos$ of the angle can help us find the horizontal component. 
+
+\subsection{Vector Addition and Subtraction: Analytical Methods}
+\subsubsection{Resolving a Vector into Perpendicular Components}
+
+For a vector $A$, it is made of 2 perpendicular vectors $A_x$ and $A_y$.
+$A_x$ and $A_y$ are components of $A$ along x- and y-axes. Expressing this relationship as an equation, you get \[A_x + A_y = A\].
+It is important to note that this addition applies for both magnitude\emph{and} direction, not just magnitude.
+
+We can easily find the vector components by using some simple trigonometry:\[A_x = A\cos \theta\] and \[A_y = A\cos \theta\]
+
+\subsubsection{Calculating a Resultant Vector}
+
+If $A_x$ and $A_y$ are known, then vector $A$ can be found analytically. \[A = \sqrt{A_x^2 + A_y^2}\] \[\theta = \arctan (A_y/A_x)\]
+This equation finding $A$ is just the pathagorean theorem.
+
+\subsubsection{Adding Vectors Using Analytical Methods}
+Figure 3.29 in the textbook
+\begin{enumerate}
+\item Identify x- andy -axes that will be used in the problem. then find the components of each vector to be added along the chosen perpendiculat axis. Use the previous equations for $A_x$ and $A_y$ to find the components.
+\item Find the components of the resultant along each axis by adding the components of the individual vectore along that axis \[R_x = A_x + B_x\] \[R_y = A_y + B_y\]
+\item To get the magnitude $R$ of the resultant, use the Pythagorean theorem: \[R = \sqrt{R_x^2 + R_y^2}\]
+\item To get the direction of the resultant relative to x-axis: \[\theta = \arctan (R_y/R_x)\]
+\end{enumerate}
+\subsection{Projectile Motion}
+\textbf{Projectile Motion} is the motion of an object thrown or projected into the air, subject to only the acceleration of gravity.
+The object is called the projectile, and its path is called the trajectory.
+
+\textbf{Important}, the motions along perpendicular axes are independent. This means that an object's horizontal motion won't affect its vertical motion, and vice versa. 
+
+When dealing with falling/propelled objects, and air resistence is negligable, acceleration ($a_y$) is the value of gravity: $g = 9.80$.
+The direction of acceleration depends on what is being measured; if a ball is thrown into the air, we recognize gravity as being negative. If a ball is dropped from a tall building, we might interpret it as positive (for calculation speed or smthn idk).
+
+\subsubsection{Analyzing Projectile Motion}
+\begin{enumerate}
+\item Resolve or break the motion into horizontal and vertical components along x- and y-axes. Magnitudes of the somponents are found with $A_x = A\cos \theta$ $A_y = A\sin \theta$.
+  
+\item Treat the motion as two independent one-dimensional motions, one horizontal and one vertical. The book represents the Kinematic equations relative to vert. and horiz. motion.
+  
+\item Solve for the unknowns in the two seperate motions - one horizontal and on vertical. The \emph{only} common variable between them is \textbf{time}($t$). Treat as if it were one-dimensional kinematics.
+  
+\item Recombine the two motions to find the total displacement and velocity. Reference book once again. Revise before test.
+\end{enumerate}
+
+For maximum height $y=h$: \[h = \frac{v^2_{0y}}{2g}\]
+
+For range $R$ of a projectile on level ground with negligible air resistance: \[R = \frac{v_0^2 \sin 2 \theta _0}{g}\]
+with $v_0$ as initial speed and $\theta _0$ as the initial angle (relative to horizon)
+
+\subsection{Addition of Velocities}
+\subsubsection{Relative Velocity}
+If a person rows a boat across a moving river heading to shore, they will move diagonally relative to shore. The object has a velocity relative to a medium(river) and that medium has a velocity relative to an observer on solid ground. The object's velocity \emph{relative to the \textbf{observer}} is the sum of these velocity vectors.
+
+Adding Velocities:
+In one-dimensional motion, adding velocities is as simple as adding the magnitudes.
+In two-dimensional motion, you can use either graphical or analytical techniques to ass velocities.
+Using analytical techniques we can find relationships b/w magnitude and direction of velocity ($v$ and $\theta$) and it's components ($v_x$ and $v_y$) along the x- and y-axes:
+\[ v_x = v \cos \theta\] \[v_y = v \sin \theta\] \[ v = \sqrt{v_x^2 + v_y^2} \] \[\theta = \arctan (v_y / v_x) \]
+$v_x$: horizontal component, $v_y$: vertical component, $v$: hypotenuse, $\theta$: angle.
+
+\subsubsection{Relative Velocities and Classial Relativity}
+When adding velocities, it is important to mention that they are relative to a reference frame. These are \textbf{relative velocities}.
+
+\textbf{Classical relativity} - more Galileo and Newton, less Einstein. Used when speeds are less than 1 percent the speed of light.
+\end{document}
